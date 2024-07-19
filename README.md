@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/HorseWhisperer69/HentaiMigrator/blob/main/assets/Banner.png">
+</p>
+
 ## Introduction
 A user-friendly command line tool to help you automatically migrate your Hentai favorites to/from NHentai and E-Hentai.
 HentaiMigrator supports automatic export, conversion, and import of favorites -
@@ -9,10 +13,9 @@ all you need to do is connect your accounts and HentaiMigrator will do all the h
 > As such, it is recommended to connect to a VPN to prevent your home IP address from getting banned
 > (bans typically last for 1h).
 
-[Releases](https://github.com/AnteDeliria/HentaiMigrator/releases)
-
-Head on over to the releases page and download the latest executable for your platform.
-HentaiMigrator will guide you through the migration process. Progress is saved automatically
+Head on over to the [Releases](https://github.com/AnteDeliria/HentaiMigrator/releases) page and download the latest executable for your platform.
+Extract the zip archive and run `HentaiMigrator.exe`.
+The command line tool will guide you through the migration process. Progress is saved automatically
 in case the program crashes mid migration.
 
 ### Retrieving your User-Agent and Cookie
@@ -37,6 +40,10 @@ and **Cookie**. Please see the guide below, adapted from[^1], on how to do this:
       - **Cookie**: This is a string that stores information about your current session. Look for an entry named Cookie and copy its value.
            - **For NHentai**: Make sure the string contains `csrftoken=` and `sessionid=`.
            - **For E-Hentai**: Make sure the string contains `ipb_member_id=` and `ipb_pass_hash=`.
+
+## Contact
+For any issues concerning the software please submit an [Issue](https://github.com/HorseWhisperer69/HentaiMigrator/issues) through Github or contact me on Discord (horse_whisperer).
+If you'd like to contribute please submit a pull request.
 
 
 [^1]: [Enma - a Python library designed to fetch and download manga and doujinshi data
