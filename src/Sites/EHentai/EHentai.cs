@@ -270,7 +270,7 @@ public class EHentai: ISite
                     Log.Information("Converting NHentai favorites to EHentai at leniency level {Leniency}...", leniency);
                     convertedFavorites = ConvertNHentaiToEHentai(exportedFavorites, leniency);
 
-                    if (exportedFavorites.Count > convertedFavorites.Count) break;
+                    if (exportedFavorites.Count == convertedFavorites.Count) break;
                     if (leniency < maxLeniency)
                     {
                         Log.Information("Try to convert additional entries using higher leniency? [y/n]:");
