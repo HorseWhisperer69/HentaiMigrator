@@ -62,6 +62,8 @@ public static class HentaiMigrator
         finally
         {
             Log.CloseAndFlush();
+            Console.WriteLine("Press Enter to exit...");
+            Console.ReadLine();
         }
     }
 }
